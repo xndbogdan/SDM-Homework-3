@@ -13,5 +13,6 @@ public class Main {
         MyRemote myr=new MyRemote();
         Registry registry=LocateRegistry.createRegistry(2500);
         registry.bind("object", myr);
+        System.out.println("Server Online...Gdpr compliance is however, off! :)");
     }
 }
